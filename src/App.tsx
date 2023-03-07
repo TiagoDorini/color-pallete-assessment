@@ -1,9 +1,10 @@
-import ColorList from './components/ColorList'
+import classes from './App.module.css'
+import ColorContainer from './ColorContainer'
 
 function App() {
 	return (
-		<div className='App'>
-			<ColorList />
+		<div className={classes.container}>
+			<ColorContainer />
 		</div>
 	)
 }

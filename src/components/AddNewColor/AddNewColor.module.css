@@ -1,0 +1,43 @@
+.container {
+	height: 30px;
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.addNewColorBtn {
+	font-size: 1.6rem;
+	text-align: center;
+
+	transition: 250ms;
+}
+
+.hexInput {
+	width: 100px;
+	font-size: large;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.colorInput {
+}
+.submitBtn {
+	margin-left: auto;
+	background-color: green;
+	font-size: large;
+	color: white;
+	padding: 10px 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 0;
+}
+
+.submitBtn:hover {
+	background-color: darkgreen;
+	cursor: pointer;
+}
+
+.submitBtn:disabled {
+	background-color: rgb(218, 218, 218);
+	color: black;
+	cursor: default;
+}
