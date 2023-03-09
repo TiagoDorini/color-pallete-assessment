@@ -32,10 +32,8 @@ const ColorContainer = () => {
 
 	useEffect(() => {
 		if (isColorTooDark()) {
-			console.log('here 1')
 			setTextColor('black')
 		} else {
-			console.log('here 2')
 			setTextColor('white')
 		}
 	}, [selectedColor])
