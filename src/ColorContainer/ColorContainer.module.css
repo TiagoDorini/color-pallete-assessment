@@ -10,7 +10,7 @@
 }
 
 .inputContainer {
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 }
 
 .savedColorsLabel {
@@ -27,6 +27,8 @@
 	font-size: larger;
 	font-weight: bold;
 	margin-bottom: 10px;
+	color: black;
+
 }
 
 .previewDiv {
@@ -34,8 +36,53 @@
 	height: 100%;
 	min-height: 350px;
 	border-radius: 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-size: 1.9rem;
+	font-weight: bold;
 }
 
 .previewContainer {
 	margin-top: 30px;
+}
+
+.previewComponents {
+	margin: 15px 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.previewTable {
+	width: 100%;
+	margin: 15px 0;
+}
+
+.previewTable th,
+.previewTable td {
+	border: 1px solid #494949;
+}
+
+.previewTable th {
+	font-weight: bold;
+	width: 33%;
+	padding: 10px;
+}
+
+.previewTable td {
+	padding: 5px;
+}
+
+.previewButton {
+	padding: 10px;
+}
+
+.previewButton:hover {
+	cursor: pointer;
+	opacity: .85;
 }
